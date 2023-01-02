@@ -4,7 +4,7 @@ This webpage is an assignment of web development course. One of the main purpose
 
 ## Layout
 The webpage is designed to work with three resolutions, one of which is depicted in the following picture:
-https://github.com/Lijuan-Z/jewelry/blob/main/image/JewelryPage.png
+![image](https://github.com/Lijuan-Z/jewelry/blob/main/image/JewelryPage.png)
 
 ## Technologies
 Technologies used for this project:
