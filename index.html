@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 3: CSS Layout</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="grid-container">
+        <!-- logo circle -->
+        <div class="cir-container">
+            <header id="circle">
+                Fine<br /> Jewelry
+            </header>
+        </div>
+
+        <!-- nav bar -->
+        <nav id="navbar">
+            <a class="linkmore" href=" ">
+                <img class="iconfig" src="image/icon1.png" alt="icon1">
+                <p></p>Trends
+            </a>
+            <a class="linkmore" href="">
+                <img class="iconfig" src="image/icon2.png" alt="icon2">
+                <p></p>News
+            </a>
+            <a class="linkmore" href="">
+                <img class="iconfig" src="image/icon3.png" alt="icon3">
+                <p></p>Stories
+            </a>
+            <a class="linkmore" href="">
+                <img class="iconfig" src="image/icon4.png" alt="icon4">
+                <p></p>Design
+            </a>
+            <a class="linkmore" href="">
+                <img class="iconfig" src="image/icon5.png" alt="icon5">
+                <p></p>Gallery
+            </a>
+        </nav>
+
+        <!-- aside information -->
+        <aside id="info">
+            <p>Download this Page!</p>
+            <button type="button" onclick="alert('Surprise!')">Download</button>
+            <br /><br />
+            <p>Looking for Other Jewelry?</p>
+            <button type="button" onclick="alert('Surprise!')">Change a Designer</button>
+            <br /><br />
+        </aside>
+
+        <!-- title image -->
+        <div class="tilefig">
+            <img src="image/bg13.png" alt="tilefig">
+            <h4 class="text-block1">Nobuko Ishikawa</h4>
+            <p class="figtext">With "aesthetics and dignity" as the central philosophy</p>
+        </div>
+
+        <!-- links under title image -->
+        <div id="link4">
+            <ul id="ul-undertitlefig">
+                <li class="horizonli"><a class="linka" href="#tilefig">Welcome</a></li>
+                <li class="horizonli"><a class="linka" href="#tilefig">Events</a></li>
+                <li class="horizonli"><a class="linka" href="#tilefig">Connect</a></li>
+                <li class="horizonli"><a class="linka" href="#tilefig">About us</a></li>
+            </ul>
+        </div>
+
+        <!-- author information line -->
+        <div class="author">
+            <img src="image/author.png" alt="authorfig" class="authorwrap">
+            <p>Every piece of Nobuko Ishikawa's jewelry comes from the same atelier in Ichikawa, Chiba.
+                <br />If you want learn more please subsribe us</p>
+        </div>
+
+        <!--subscribe form-->
+        <form class="Subscribe" action="/summit">
+            <input type="email" id="email" placeholder="Email" />
+            <input type="submit" id="submit" name="submit" value="Subscribe" />
+        </form>
+
+        <!-- main content (4 cards) -->
+        <div id="content1" class="con4">
+            <figure>
+                <img src="image/fig1.png" class="contentfig" alt="content figure1">
+                <figcaption>Mont Saint-Michel jewelry</figcaption>
+            </figure>
+            <p>This corsage, pendant and silk scarf buckle are exquisite in craftsmanship, generous in gold, skilled in
+                gold carving, thick and artistic, embellished on the chest and on the chest, adding sparkling charm to
+                yourself</p>
+            <p class="pfont">10Mins Ago | <a class="linkmore" href=""> Read More + </a></p>
+        </div>
+
+        <div id="content2" class="con4">
+            <figure>
+                <img src="image/fig22.png" class="contentfig" alt="content figure2">
+                <figcaption>A work of art brooch/pendant</figcaption>
+            </figure>
+
+            <p>Full of childlike ideas and exquisite gold carving techniques, the castle seems to stand beside a pool of
+                clear water against the backdrop of green onyx, which cannot hide the strong fairy tale taste!</p>
+            <p class="pfont">1Hour Ago | <a class="linkmore" href=""> Read More + </a></p>
+        </div>
+        <div id="content3" class="con4">
+            <figure>
+                <img src="image/fig65.png" class="contentfig" alt="content figure3">
+                <figcaption>Pure handmade pendant/brooch/scarf buckle</figcaption>
+            </figure>
+
+            <p>The conception of this corsage and pendant is full of fairy tale mood, generous amount of gold, skilled
+                gold carving skills, jewelry made of diamonds and colorful treasures, brilliant and ingenious</p>
+            <p class="pfont">1 Days Ago | <a class="linkmore" href=""> Read More + </a></p>
+        </div>
+        <div id="content4" class="con4">
+            <figure>
+                <img src="image/fig4.jpeg" class="contentfig" alt="content figure4">
+                <figcaption>Tourmaline/Diamond/Sapphire Ring</figcaption>
+            </figure>
+
+            <p>A luxurious and beautiful ring with carefully selected diamonds and sapphires. There are
+                slight scratches on the precious metal parts, but overall it is in a beautiful state.</p>
+            <p class="pfont">2 Days Ago | <a class="linkmore" href=""> Read More + </a></p>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <hr />
+            <a href="https://www.facebook.com"><img src="image/fb.png" alt="facebook"></a>
+            <a href="https://twitter.com"><img src="image/tw.png" alt="twitter"></a>
+            <a href="https://www.www.pinterest.com"><img src="image/pin.png" alt="pinterest"></a>
+            <p class="pfont">Copyright @2022 LisaZhu</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

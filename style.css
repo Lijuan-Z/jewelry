@@ -1,0 +1,426 @@
+/* For less than 700 pixels wide range*/
+@media only screen and (max-width : 700px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        /*grid-template-rows: 5% 10% 22% 3% 7% 5% 20% 20% 20% 20%;*/
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        gap: 0px;
+        padding: 0px;
+    }
+
+    .tilefig {
+        grid-row: 3;
+    }
+
+    .cir-container {
+        grid-row: 2;
+        display: grid;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #navbar {
+        grid-row: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .linkmore>p {
+        display: none;
+    }
+
+    .iconfig {
+        display: none;
+    }
+
+    aside,
+    footer {
+        display: none;
+    }
+
+    #link4 {
+        grid-row: 4;
+        width: 100%;
+    }
+
+    .author {
+        grid-row: 5;
+        width: 100%;
+    }
+
+    .author>p {
+        margin: 0;
+    }
+
+    form {
+        grid-row: 6;
+    }
+
+    #content1 {
+        grid-row: 7;
+    }
+
+    #content2 {
+        grid-row: 8;
+    }
+
+    #content3 {
+        grid-row: 9;
+    }
+
+    #content4 {
+        grid-row: 10;
+    }
+
+}
+
+
+
+
+/* For 701-1280 pixels wide range*/
+@media only screen and (max-width : 1280px) and (min-width : 701px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 10% 34% 3% 5% 1fr;
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        gap: 0px;
+        padding: 0px;
+        margin: 0%;
+    }
+
+    .cir-container {
+        grid-area: 1 / 1;
+        display: grid;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #navbar {
+        grid-area: 1 / 2 / span 1 / span 3;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .linkmore>p {
+        margin: 0%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .tilefig {
+        grid-area: 2 / 1 / span 1 / span 4;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #link4 {
+        grid-area: 3 / 1 / span 1 / span 4;
+        width: 100%;
+    }
+
+    .author {
+        grid-area: 4 / 1 / span 1 / span 3;
+        width: 100%;
+    }
+
+    .author>p {
+        margin: 0%;
+    }
+
+    form {
+        grid-area: 4 / 4 / span 1 / span 1;
+    }
+
+    #content1 {
+        grid-area: 5 / 1 / span 1 / span 1;
+    }
+
+    #content2 {
+        grid-area: 5 / 2 / span 1 / span 1;
+    }
+
+    #content3 {
+        grid-area: 5 / 3 / span 1 / span 1;
+    }
+
+    #content4 {
+        grid-area: 5 / 4 / span 1 / span 1;
+    }
+}
+
+
+/* For 1281 to 1600 pixels wide range*/
+@media only screen and (max-width : 11600px) and (min-width : 1281px) {
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: 16% 21% 21% 21% 21%;
+        grid-template-rows: 10% 32% 3% 5% 1fr 3%;
+        /*grid-template-rows: 10% 32% 3% 5%;
+        grid-template-rows: 10% 32% 3% 5% 47% 3%;*/
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        gap: 0px;
+        padding: 0px;
+        margin: 0%
+    }
+
+    .tilefig {
+        grid-column: 2 / span 4;
+        grid-row: 1 / span 2;
+    }
+
+    .cir-container {
+        grid-area: 1 / 1;
+        display: grid;
+        justify-content: center;
+        align-self: center;
+    }
+
+
+    #navbar {
+        grid-area: 2 / 1;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkmore>p {
+        display: none;
+    }
+
+    aside {
+        grid-area: 5 / 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        grid-area: 6 / 1 / span 1 / span 5;
+    }
+
+    #link4 {
+        grid-area: 3 / 2 / span 1 / span 4;
+        width: 100%;
+    }
+
+    .author {
+        grid-area: 4 / 2 / span 1 / span 3;
+        width: 100%;
+    }
+
+    .author>p {
+        margin: 0%;
+    }
+
+    form {
+        grid-area: 4 / 5 / span 1 / span 1;
+    }
+
+    #content1 {
+        grid-area: 5 / 2 / span 1 / span 1;
+    }
+
+    #content2 {
+        grid-area: 5 / 3 / span 1 / span 1;
+    }
+
+    #content3 {
+        grid-area: 5 / 4 / span 1 / span 1;
+    }
+
+    #content4 {
+        grid-area: 5 / 5 / span 1 / span 1;
+    }
+
+}
+
+
+/* common css setting for all layouts*/
+
+@font-face {
+    font-family: Ainan Trial;
+    src: url('fonts/Ainan\ Trial.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+/* logo circle */
+#circle {
+    align-content: center;
+    justify-content: center;
+    width: 8vh;
+    height: 8vh;
+
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: rgb(89, 189, 232);
+}
+
+/* nav bar */
+.iconfig {
+    width: 35px;
+}
+
+aside,
+#nav_bar {
+    text-align: center;
+}
+
+/* title image */
+.tilefig {
+    position: relative;
+}
+.tilefig>img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+h4 {
+    font-family: Ainan Trial;
+    font-size: x-large;
+}
+
+.figtext {
+    font-family: 'Style Script', cursive;
+    font-size:medium;
+
+    position: absolute;
+    left:1px;
+    bottom: 1px;
+
+    width: 50vh;
+    height: 2fr;
+    background-color: rgba(56, 114, 180, 0.3);
+    color: white;
+
+}
+
+.text-block1 {
+    position: absolute;
+    width: 30vh;
+    height: 3fr;
+    bottom: 38px;
+    left: 1px;
+    background-color: rgba(56, 114, 180, 0.3);
+
+    color: white;
+}
+
+/* links under title image*/
+#ul-undertitlefig {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.horizonli {
+    float: left;
+    width: 25%;
+}
+
+.linka:link,
+.linka:visited {
+    display: block;
+    font-weight: bold;
+    color: #1a688f;
+    background-color: #68b4dd;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.linka:hover,
+.linka:active {
+    background-color: #085692;
+}
+
+/* author information line */
+.author img {
+    width: 35px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.authorwrap {
+    float: left;
+    width: 33%;
+    height: auto;
+    min-width: 32px;
+}
+
+/* main content (4 cards)*/
+.con4 {
+    margin: 9px;
+    display: block;
+}
+
+figure {
+    margin: 5%;
+}
+
+figcaption {
+    background-color: white;
+    color: #68b4dd;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.contentfig {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    border: thin #c0c0c0 solid;
+    display: block;
+    padding: 1px;
+}
+
+.pfont {
+    color: #68b4dd;
+    font-style: italic;
+    padding: 2px;
+    margin: 0%;
+    font-size: small;
+}
+
+.linkmore,
+.linkmore:link,
+.linkmore:visited {
+    color: #68b4dd;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+hr {
+    margin: 0%;
+}
+
+footer img {
+    width: 25px;
+}
